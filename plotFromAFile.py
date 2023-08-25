@@ -106,9 +106,29 @@ def main():
                    fontName,
                    fontWeight,
                    nPixelsPerInch)
-                  
-
-
+    
+    #tempLiquidus = 1345    
+    #tempSolidus = 1235
+    #tempGammaSolvus = 1105    
+    #dataSolidus = len(dataY)*[tempSolidus]
+    #dataLiquidus = len(dataY)*[tempLiquidus]
+    #dataGammaSolvus = len(dataY)*[tempGammaSolvus]
+    #
+    #plt.plot(dataX[idRowStart:idRowEnd],dataLiquidus[idRowStart:idRowEnd],linewidth = 2 ,lineStyle = "--",c = "black")
+    #plt.plot(dataX[idRowStart:idRowEnd],dataSolidus[idRowStart:idRowEnd],linewidth = 2 ,lineStyle = "--",c = "blue")
+    #plt.plot(dataX[idRowStart:idRowEnd],dataGammaSolvus[idRowStart:idRowEnd],linewidth = 2 ,lineStyle = "--",c = "red")
+    #fontStyleXlabel = {'fontname':fontName,'weight':fontWeight,'fontsize':fontSizeXlabel}
+    #fontStyleYlabel = {'fontname':fontName,'weight':fontWeight,'fontsize':fontSizeYlabel}
+    #fontStyleXticks = {'fontname':fontName,'weight':fontWeight,'fontsize':fontSizeXticks}
+    #fontStyleYticks = {'fontname':fontName,'weight':fontWeight,'fontsize':fontSizeYticks}    
+    #
+    #plt.xscale(xScale)
+    #plt.yscale(yScale)    
+    #plt.xlabel(labelX,**fontStyleXlabel)        
+    #plt.ylabel(labelY,**fontStyleYlabel)
+    #plt.xticks(**fontStyleXticks)
+    #plt.yticks(**fontStyleYticks)
+    #plt.savefig(figFileNameToSave,bbox_inches = 'tight',dpi = nPixelsPerInch)
 
 if __name__ == "__main__":
     main()
